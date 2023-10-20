@@ -132,6 +132,8 @@ function Calculator() {
 
   return (
     <>
+      <h2 style={{ textAlign: "center" }}>Amplify Calculator App</h2>
+
       <div className="container">
         <div className="main">
           <Display input={input} setInput={setInput} answer={answer} />
